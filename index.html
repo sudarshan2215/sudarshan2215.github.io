@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title>Absolute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<body>
+
+<div class="page-container">
+  <div class="centre-logo">
+    <p>Absolute</p>
+  </div>
+  <div class="menu-nav">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="btn">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="btn">contact</button></p>
+  </div>
+  <div class="display-bottom-left">
+    <p class="xlarge">monday - friday 10-23 | saturday 14-02</p>
+    <p class="large">42 village St, New York</p>
+    <p>powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</div>
+
+<div id="menu" class="top-up">
+  <div class="top-up-content animate-zoom">
+    <div class="container heading">
+      <span onclick="document.getElementById('menu').style.display='none'" class="closebtn">x</span>
+      <h1>Starters</h1>
+    </div>
+    <div class="container">
+     
+	 <p>We take immense pride in transforming people. Our hair experts offer the perfect solutions for your daily style goals, hair issues, and queries regarding hair colour and styling. A day at work for us involves taking transforming your hair from ordinary - to remarkable. Walk out of Absolute Hair Spa & Saloon with renewed confidence because your hair will complement your style and persona, become an essential trait. Be ready to inspire awe and envy in equal measure.</p>
+
+	 <p>We do: <b>Hair Cut</b>, <b>Hair Spa</b>, <b>Hair Straightening</b>, <b>Highlight and various Hair Treatment</b>.</p>
+
+	 <p>Product Used: L’Oreal only.</p>
+
+	 
+	 
+	 
+    </div>
+    <div class="container heading">
+      <h1>Main Courses</h1>
+    </div>
+    <div class="container">
+      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
+      <h5>Italian Pizza <b>$5.50</b></h5>
+      <h5>Veggie Pasta <b>$4.00</b></h5>
+      <h5>Chicken and Potatoes <b>$6.50</b></h5>
+      <h5>Deluxe Burger <b>$5.00</b></h5>
+    </div>
+    <div class="container heading">
+      <h1>Desserts</h1>
+    </div>
+    <div class="container">
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+      <h5>Cheese <b>$5.50</b></h5>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="top-up">
+  <div class="top-up-content animate-zoom">
+    <div class="container heading">
+      <span onclick="document.getElementById('contact').style.display='none'" class="closebtn xxlarge hover-text-grey">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="form.asp" target="_blank">
+        <p><input type="text" placeholder="Name" required name="Name"></p>
+        <p><input type="number" placeholder="How many people" required name="People"></p>
+        <p><input type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+        <p><input type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="btn" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
